@@ -14,15 +14,14 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from strings import get_command
 from Zaid import app
 from Zaid.misc import SUDOERS
 from Zaid.utils import get_readable_time
 
 # Command
-GBAN_COMMAND = get_command("GBAN_COMMAND")
-UNGBAN_COMMAND = get_command("UNGBAN_COMMAND")
-GBANNED_COMMAND = get_command("GBANNED_COMMAND")
+GBAN_COMMAND = get_command("/gban")
+UNGBAN_COMMAND = get_command("/ungban")
+GBANNED_COMMAND = get_command("/gbanlist")
 
 
 @app.on_message(filters.command(GBAN_COMMAND) & SUDOERS)
