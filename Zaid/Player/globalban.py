@@ -18,13 +18,6 @@ from strings import get_command
 from Zaid import app
 from Zaid.misc import SUDOERS
 from Zaid.utils import get_readable_time
-from Zaid.utils.database import (add_banned_user,
-                                       get_banned_count,
-                                       get_banned_users,
-                                       get_served_chats,
-                                       is_banned_user,
-                                       remove_banned_user)
-from Zaid.utils.decorators.language import language
 
 # Command
 GBAN_COMMAND = get_command("GBAN_COMMAND")
