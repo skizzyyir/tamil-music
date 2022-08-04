@@ -13,7 +13,7 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from config import BANNED_USERS
+from config import 
 from Zaid import app
 from Zaid.player import SUDOERS
 from Zaid.utils import get_readable_time
