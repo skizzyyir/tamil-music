@@ -15,7 +15,7 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from Zaid import app
-from Zaid.misc import SUDOERS
+from Zaid.player import SUDOERS
 from Zaid.utils import get_readable_time
 
 # Command
